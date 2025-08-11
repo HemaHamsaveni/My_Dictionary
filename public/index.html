@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <header>
+      <!-- First line: App title -->
+      <h1>My Dictionary App</h1>
+
+      <!-- Second line: Welcome message and logout button -->
+      <div id="user-info-and-controls">
+        <span id="welcome-message"></span>
+        <div id="auth-controls">
+          <button id="login-btn">Log In</button>
+          <button id="signup-btn">Sign Up</button>
+          <button id="logout-btn" style="display: none">Log Out</button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div id="auth-form-container"></div>
+      <section id="app-container" style="display: none">
+        <div id="search-container">
+          <input type="text" id="word-input" placeholder="Enter a word..." />
+          <button id="search-btn">Search</button>
+        </div>
+        <div id="dictionary-results">
+          <h2>Results:</h2>
+        </div>
+        <div id="history-container">
+          <div
+            style="
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+            "
+          >
+            <h2>Search History:</h2>
+            <button id="clear-history-btn" style="display: none">
+              Clear History
+            </button>
+          </div>
+          <ul id="history-list"></ul>
+        </div>
+      </section>
+    </main>
+
+    <button id="mode-toggle-btn">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-moon"
+      >
+        <path d="M21 12.79A9 9 1 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+    </button>
+
+    <script src="main.js"></script>
+  </body>
+</html>

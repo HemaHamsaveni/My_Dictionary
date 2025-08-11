@@ -1,0 +1,19 @@
+{
+  "name": "my-dictionary-app",
+  "version": "1.0.0",
+  "description": "A dictionary app with user authentication and search history.",
+  "main": "api/auth/signup.js",
+  "scripts": {
+    "start": "vercel dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.7",
+    "node-fetch": "^3.3.2"
+  }
+}
