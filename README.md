@@ -3,7 +3,7 @@ My Dictionary is a web-based dictionary application built to provide quick and e
 
 Live Demo
 You can view a live demo of the application here:
-my-dictionary-hemahamsaveni.vercel.app
+https://my-dictionary-hemahamsaveni.vercel.app/
 
 Features
 Word Search: Search for any word to get its definition.
